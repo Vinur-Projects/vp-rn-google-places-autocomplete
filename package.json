@@ -1,0 +1,30 @@
+{
+  "name": "react-native-google-autocomplete",
+  "version": "1.0.0",
+  "description": "The `GooglePlacesAutocomplete` component is a customizable React Native component that provides an autocomplete search input for Google Places. It supports fetching location suggestions, displaying search results, and handling user selections.",
+  "main": "GooglePlacesAutocomplete.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "./GooglePlacesAutocomplete.d.ts",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "prop-types": "^15.7.2",
+    "qs": "~6.9.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "2.0.0",
+    "eslint": "7.10.0",
+    "husky": "4.3.0",
+    "lint-staged": "10.4.0",
+    "prettier": "2.1.2",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react-native": ">= 0.59"
+  }
+}
