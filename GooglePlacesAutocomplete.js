@@ -244,6 +244,9 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       if (props.fields) {
         request.setRequestHeader("X-Goog-FieldMask", props.fields);
       }
+      if (props.query.language) {
+        request.setRequestHeader("Accept-Language", props.query.language); // Set language for localized response
+      }
       setSessionToken(uuidv4());
       request.send();
     } else if (rowData.isCurrentLocation === true) {
