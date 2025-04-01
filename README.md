@@ -1,6 +1,6 @@
 # GooglePlacesAutocomplete Component
 
-## Overview
+## Overview 
 The `GooglePlacesAutocomplete` component is a customizable React Native component that provides an autocomplete search input for Google Places. It supports fetching location suggestions, displaying search results, and handling user selections.
 
 ## Features
